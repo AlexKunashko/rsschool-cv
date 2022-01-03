@@ -38,6 +38,6 @@ function solution(number) {
 * University: Minsk Innovation University, Civil Software for information technologies
 + CS50 video course
 + JavaScript https://learn.javascript.ru/
-
+------------------
 ## English
 A2 (I had been practicing English, when I worked in the USA as an exchange student)
