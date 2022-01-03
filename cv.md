@@ -7,6 +7,7 @@
 * Phone: +375 25 523 29 00
 * GitHub: AlexKunashko
 * Telegram: @Allexato 
+
 ## About Me
 I want to improve Front-End Development in RSSchool!
 ## Skills
@@ -15,6 +16,7 @@ I want to improve Front-End Development in RSSchool!
 * JavaScript (Basic,ООП, DOM, Asynchronous JavaScript)
 * React JS (Basic)
 * Git/GitHub
+
 ## Code Example
 ```
 function solution(number) {
@@ -34,5 +36,6 @@ function solution(number) {
 * University: Minsk Innovation University, specialty: "Software for information technologies"
 + CS50 video course
 + JavaScript https://learn.javascript.ru/
+
 ## Language
 English level - A2
