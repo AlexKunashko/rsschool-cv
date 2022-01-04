@@ -1,2 +1,142 @@
-.html {
+@font-face {
+  font-family: Roboto;
+  src: url("assets/fonts/Roboto-Black.ttf");
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  max-width: 1024px;
+  margin: auto;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #000000;
+   /* background-image: url("assets/img/background.webp"); */
+  background-color: #050505;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.main {
+  display: flex ;
+}
+.aside{
+    margin: 0 auto;
+    background-color: #444343;
+    color:rgb(211, 211, 211);
+}
+.aside h2{
+    color:rgb(255, 255, 255);
+}
+.aside h1{
+    color:rgb(255, 255, 255);
+    margin: auto;
+    text-align: center;
+}
+.container {
+    margin: 0 auto;
+    background-color: rgb(211, 211, 211);
+    color:#444343;
+}
+.container-footer{
+    margin: 0 auto;
+    background-color: rgb(128, 126, 126);
+    color: black;
+    display: flex;
+}
+.container-footer div{
+    margin: auto;
+}
+.nav-list {
+display: flex;
+list-style: none;
+padding-inline-start: 0px;
+margin-block-start: 0 em;
+}
+
+.nav-link {
+
+  line-height: 50px;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  transition: 0.2s;
+}
+.nav-item{
+    text-align: center;
+    margin: auto;
+    padding: auto;
+}
+.nav-link:hover {
+  color: rgb(3, 3, 124);
+  text-decoration:underline;
+}
+.section-item a {
+  color: #000000;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+.section-item a:hover {
+  color: #000000;
+}
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 80%;
+  margin: auto;
+}
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+.section-title {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #000000;
+}
+.link {
+    text-decoration: none;
+    color: #000000;
+    transition: color 0.5s;
+}
+  
+  .link:hover {
+    color: #000000;
+}
+
+.keywords-code{
+    color:red;
+
+}
+.code{
+    background-color: rgb(230, 230, 230);
+}
+.avatar{
+    display: block;
+    margin: auto;
+}
+.footer-logo{
+    width: 50px;
+    height: 50px;
+}  
+h1{
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #000000;
 }
